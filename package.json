@@ -1,0 +1,44 @@
+{
+  "name": "githook",
+  "description": "an command line to easy listen git hooks",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jiawulu/githook",
+  "author": "jiawu.lu@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jiawulu/githook.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jiawulu/githook/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "src/main.js",
+  "bin": "src/main.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "colours": "0.6.0-2",
+    "commander": "1.2.0"
+  },
+  "dependencies": {
+    "colours": "0.6.0-2",
+    "commander": "1.2.0"
+  },
+  "keywords": [
+    "git",
+    "hook",
+    "wuzhong"
+  ],
+  "readmeFilename": "README.md",
+  "gitHead": "45d358a955616809511e0f026792ea93f6d3e430",
+  "bugs": {
+    "url": "https://github.com/jiawulu/githook/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "BSD"
+}
